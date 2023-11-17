@@ -1,0 +1,18 @@
+@mixin for-the-mobile {
+    max-width: 992px;
+}
+
+@mixin for-mobile {
+    max-width: 576px;
+}
+
+@mixin display-fool {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin mini-flex {
+    display: flex;
+    align-items: center;
+}
